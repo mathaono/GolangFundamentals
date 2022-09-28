@@ -1,0 +1,14 @@
+{
+    "nome": "Matheus",
+    "idade": 26,
+    "cursos": [
+        {
+            "curso": "ADS",
+            "faculdade": "Anhembi"
+        },
+        {
+            "curso": "inglês",
+            "faculdade": "Idel English Now"
+        }
+    ]
+}

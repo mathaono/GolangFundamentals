@@ -1,26 +1,11 @@
 package main
 
 import (
-	"bytes"
-	"encoding/json"
-	"fmt"
-	"log"
-
-	jsons "github.com/GolangFundamentals/JSONS"
-	arraysslices "github.com/GolangFundamentals/arraysSlices"
-	"github.com/GolangFundamentals/assistant"
-	"github.com/GolangFundamentals/functions"
-	"github.com/GolangFundamentals/genericInheritance"
-	"github.com/GolangFundamentals/httpProtocol"
-	"github.com/GolangFundamentals/operators"
-	"github.com/GolangFundamentals/pointers"
-	"github.com/GolangFundamentals/structs"
-	"github.com/GolangFundamentals/variables"
-	"github.com/badoux/checkmail"
+	"github.com/GolangFundamentals/crud"
 )
 
 func main() {
-	fmt.Println("teste")
+	/* fmt.Println("teste")
 	assistant.Write()
 	err := checkmail.ValidateFormat("aono.1304gmail.com.abc")
 	fmt.Println(err)
@@ -53,7 +38,7 @@ func main() {
 
 	arraysslices.InternalSlices()
 
-	/* maps.Maps()
+	 maps.Maps()
 
 	loops.Loops()
 
@@ -73,7 +58,7 @@ func main() {
 	waitGroup.Wait()
 
 	channel := make(chan string)
-	channels.Write("teste 3", channel) */
+	channels.Write("teste 3", channel)
 
 	fmt.Println("-----------------------------------")
 
@@ -133,6 +118,7 @@ func main() {
 	}
 
 	fmt.Println(userUnmarchal2)
+	database.ConnectDatabase() */
 
-	httpProtocol.UpServer()
+	crud.Crud()
 }
